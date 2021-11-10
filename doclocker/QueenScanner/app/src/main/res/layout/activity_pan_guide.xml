@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gpaddy.hungdh.camscanner.aadharGuide">
+
+    <TextView
+        android:id="@+id/panTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/pop_reg"
+        android:text="PAN card Guide"
+        android:textSize="30dp" />
+    <ScrollView
+        android:layout_below="@+id/panTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center_horizontal"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:fontFamily="serif"
+                        android:text="Documents Accepted"
+                        android:gravity="center"/>
+
+                    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:stretchColumns="0,1,2"
+                        android:gravity="center">
+
+                        <TableRow
+                            android:background="#FFFFFF"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+                            >
+                            <TableRow
+                                android:background="#000000"
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_margin="1dp"
+                                android:layout_weight="1"
+                                >
+
+
+
+                            </TableRow>
+                        </TableRow>
+                        <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text=" Documents "
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="POI "
+                                android:layout_margin="1dp"
+                                android:layout_column="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="POA "
+                                android:layout_margin="1dp"
+                                android:layout_column="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:textStyle="bold"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="DOB"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:textStyle="bold"
+                                android:layout_column="2"
+                                />
+                        </TableRow>
+
+                        <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="Driving License"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="yes"
+                                android:layout_margin="1dp"
+                                android:layout_column="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="yes"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:layout_column="2" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="yes"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:layout_column="2" />
+                        </TableRow>
+
+
+
+                        <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text=" Passport"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="yes"
+                                android:layout_margin="1dp"
+                                android:layout_column="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="yes"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:layout_column="2" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="yes"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:layout_column="2" />
+                        </TableRow>
+
+                        <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="AADHAAR Card"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="yes"
+                                android:layout_margin="1dp"
+                                android:layout_column="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="yes"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:layout_column="2" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="no"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:layout_column="2" />
+                        </TableRow>
+                        <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="Domicile Certificate"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="no"
+                                android:layout_margin="1dp"
+                                android:layout_column="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="yes"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:layout_column="2" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="yes"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:layout_column="2" />
+                        </TableRow>
+
+
+                    </TableLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textSize="12dp"
+                        android:fontFamily="serif"
+                        android:text="Abbreviations: POI- Proof of Identity | POA - Proof of Address | DOB - Proof of Date of birth"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Fill application"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/pop_reg"
+                        android:textFontWeight="2000000"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:lines="2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="◦ Fill an online application form for a New PAN Card using the following link."
+                        android:textFontWeight="1000"
+                        android:textSize="17dp" />
+                    <TextView
+                        android:textColor="@color/blue_200"
+                        android:layout_marginTop="5dp"
+                        android:lines="2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="◦ https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html"
+                        android:textFontWeight="1000"
+                        android:textSize="13dp" />
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. Pay Online"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/pop_reg"
+                        android:textFontWeight="2000000"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:lines="2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="◦ Make an online payment using Credit Card / Debit Card / Internet Banking."
+                        android:textFontWeight="1000"
+                        android:textSize="17dp" />
+                    <TextView
+                        android:textColor="#F16F6F"
+                        android:layout_marginTop="5dp"
+                        android:lines="2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="◦ You can use your respective online banking portals as well for this! "
+                        android:textFontWeight="1000"
+                        android:textSize="12dp" />
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. Sign Appropriately"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/pop_reg"
+                        android:textFontWeight="2000000"
+                        />
+
+                    <TextView
+                        android:fontFamily="@font/pop_reg"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Download and print:"
+                        android:textFontWeight="100000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Either download pre-filled PDF form, save and print later"
+                        android:textFontWeight="1000"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="2. Or print directly if you are connected to a printer."
+                        android:textFontWeight="1000"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:fontFamily="@font/pop_reg"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Photo:"
+                        android:textFontWeight="100000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Paste two recent stamp size colour photographs (3.5 cm x 2.5 cm)"
+                        android:textFontWeight="1000"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:fontFamily="@font/pop_reg"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sign:"
+                        android:textFontWeight="100000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Either download pre-filled PDF form, save and print later"
+                        android:textFontWeight="1000"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="2. Or print directly if you are connected to a printer."
+                        android:textFontWeight="1000"
+                        android:textSize="12dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="2. Or print directly if you are connected to a printer."
+                        android:textFontWeight="1000"
+                        android:textSize="12dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="2. Or print directly if you are connected to a printer."
+                        android:textFontWeight="1000"
+                        android:textSize="12dp" />
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4. Send Documents"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/pop_reg"
+                        android:textFontWeight="2000000"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:lines="2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="◦ Make an online payment using Credit Card / Debit Card / Internet Banking."
+                        android:textFontWeight="1000"
+                        android:textSize="17dp" />
+                    <TextView
+                        android:textColor="#F16F6F"
+                        android:layout_marginTop="5dp"
+                        android:lines="2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="◦ You can use your respective online banking portals as well for this! "
+                        android:textFontWeight="1000"
+                        android:textSize="12dp" />
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="You can also apply from:"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/pop_reg"
+                        android:textFontWeight="2000000"
+                        />
+
+                    <TextView
+                        android:id="@+id/panNAV"
+                        android:textColor="@color/blue_200"
+                        android:layout_marginTop="5dp"
+                        android:lines="4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="◦ Download the form and you can submit it offline at Your nearest NSDL Office.(Click to navigate)"
+                        android:textFontWeight="1000"
+                        android:textSize="15dp" />
+
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gpaddy.hungdh.camscanner.aadharGuide">
+
+    <TextView
+        android:id="@+id/aadharTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/pop_reg"
+        android:text="Aadhar card Guide"
+        android:textSize="30dp" />
+    <ScrollView
+        android:layout_below="@+id/aadharTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center_horizontal"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:fontFamily="serif"
+                        android:text="Documents Accepted"
+                        android:gravity="center"/>
+
+                    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:stretchColumns="0,1,2"
+                        android:gravity="center">
+
+                        <TableRow
+                            android:background="#FFFFFF"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+                            >
+                            <TableRow
+                                android:background="#000000"
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_margin="1dp"
+                                android:layout_weight="1"
+                                >
+
+
+
+                            </TableRow>
+                        </TableRow>
+                        <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text=" Documents "
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="POI "
+                                android:layout_margin="1dp"
+                                android:layout_column="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="POA "
+                                android:layout_margin="1dp"
+                                android:layout_column="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:textStyle="bold"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="DOB"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:textStyle="bold"
+                                android:layout_column="2"
+                                />
+                        </TableRow>
+
+                        <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="Voter ID"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="yes"
+                                android:layout_margin="1dp"
+                                android:layout_column="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="yes"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:layout_column="2" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="no"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:layout_column="2" />
+                        </TableRow>
+
+
+
+                        <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text=" Passport"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="yes"
+                                android:layout_margin="1dp"
+                                android:layout_column="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="yes"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:layout_column="2" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="yes"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:layout_column="2" />
+                        </TableRow>
+
+                        <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="PAN Card"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="yes"
+                                android:layout_margin="1dp"
+                                android:layout_column="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="no"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:layout_column="2" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="yes"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:layout_column="2" />
+                        </TableRow>
+                        <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="Ration Card"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="yes"
+                                android:layout_margin="1dp"
+                                android:layout_column="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="yes"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:layout_column="2" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="no"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:layout_column="2" />
+                        </TableRow>
+
+
+                    </TableLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textSize="12dp"
+                        android:fontFamily="serif"
+                        android:text="Abbreviations: POI- Proof of Identity | POA - Proof of Address | DOB - Proof of Date of birth"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Fill application"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/pop_reg"
+                        android:textFontWeight="2000000"
+                        />
+
+                    <TextView
+                        android:layout_width="336dp"
+                        android:layout_height="68dp"
+                        android:layout_marginTop="5dp"
+                        android:lines="3"
+                        android:text="◦To apply for Aadhaar card, you should first collect the required documents.These include proof of identity, address proof and date of birth proof."
+                        android:textFontWeight="2000"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:lines="2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="◦ These documents have to be submitted along with the enrolment form.Link for enrollment form:"
+                        android:textFontWeight="2000"
+                        android:textSize="12dp" />
+                    <TextView
+                        android:id="@+id/aadhar3"
+                        android:textColor="@color/blue_200"
+                        android:layout_marginTop="5dp"
+                        android:lines="2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="◦ https://uidai.gov.in/images/aadhaar_enrolment_correction_form_version_2.1.pdf"
+                        android:textFontWeight="1000"
+                        android:textSize="13dp" />
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2.Locate the nearest permanent enrolment centre"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/pop_reg"
+                        android:textFontWeight="2000000"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:lines="2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="◦Next step is to visit the permanent enrolment centre along with the required original documents."
+                        android:textFontWeight="1000"
+                        android:textSize="12dp" />
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:lines="2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="◦You can locate the nearest permanent enrolment centre on the UIDAI's website"
+                        android:textFontWeight="1000"
+                        android:textSize="12dp" />
+                    <TextView
+                        android:id="@+id/aadhar2"
+                        android:textColor="@color/blue_200"
+                        android:layout_marginTop="5dp"
+                        android:lines="2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="◦https://appointments.uidai.gov.in/ "
+                        android:textFontWeight="1000"
+                        android:textSize="12dp" />
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3.Enrolment Centre"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/pop_reg"
+                        android:textFontWeight="2000000"
+                        />
+
+                    <TextView
+                        android:fontFamily="@font/pop_reg"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="At the enrolment centre, you are required to submit the duly filled form."
+                        android:textFontWeight="100000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. You can either fill the form by taking it from the enrolment centre or by downloading it from the UIDAI's website, as mentioned above."
+                        android:textFontWeight="1000"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="2. The agents at the enrolment centre will take the duly filled enrolment form and scan the original documents submitted as proof of identity, address proof and date of birth. After scanning the documents, the original documents will be returned to you."
+                        android:textFontWeight="1000"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:fontFamily="@font/pop_reg"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Photo:"
+                        android:textFontWeight="100000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your photograph will also be taken at the enrolment centre."
+                        android:textFontWeight="1000"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:fontFamily="@font/pop_reg"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Biometric Data:"
+                        android:textFontWeight="100000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="You will be required to submit your biometric data i.e your finger prints and iris scan."
+                        android:textFontWeight="1000"
+                        android:textSize="12dp" />
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4.Acknowledgement slip"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/pop_reg"
+                        android:textFontWeight="2000000"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:lines="3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="◦Once the form, documents and biometric data are submitted at the enrolment centre, don't forget to collect your acknowledgment slip."
+                        android:textFontWeight="1000"
+                        android:textSize="12dp" />
+                    <TextView
+
+                        android:layout_marginTop="5dp"
+                        android:lines="3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="◦The acknowledgment slip contains 28 digits which is made up of 14 digit enrolment ID and 14 digit date and time of the enrolment in the format dd/mm/yyyy hh:mm:ss."
+                        android:textFontWeight="1000"
+                        android:textSize="12dp" />
+
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5.Check status of your Aadhaar"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/pop_reg"
+                        android:textFontWeight="2000000"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:lines="2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="◦To check the status of your Aadhaar,Lnk below:"
+                        android:textFontWeight="1000"
+                        android:textSize="12dp" />
+                    <TextView
+                        android:id="@+id/aadhar1"
+                        android:textColor="@color/blue_200"
+                        android:layout_marginTop="5dp"
+                        android:lines="2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="◦https://resident.uidai.gov.in/"
+                        android:textFontWeight="1000"
+                        android:textSize="12dp" />
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:lines="2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="◦On the website, you are required to enter the 28 digits mentioned on your acknowledgement slip and security code."
+                        android:textFontWeight="1000"
+                        android:textSize="12dp" />
+
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Points to remember"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/pop_reg"
+                    android:textFontWeight="2000000"
+                    />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:lines="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="◦There is no online method to apply for an Aadhaar card as you are required to submit biometric identification as well."
+                    android:textFontWeight="1000"
+                    android:textSize="12dp" />
+                <TextView
+
+                    android:layout_marginTop="5dp"
+                    android:lines="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="◦Therefore, you are mandatorily required to visit the enrolment centre."
+                    android:textFontWeight="1000"
+                    android:textSize="12dp" />
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:lines="3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="◦There is no charge to apply for Aadhaar card. Any correction within 96 hours of enrolment is also free. Therefore, agents at enrolment centre are not supposed to charge you for applying for Aadhaar card."
+                    android:textFontWeight="1000"
+                    android:textSize="12dp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="You can also apply from:"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/pop_reg"
+                        android:textFontWeight="2000000"
+                        />
+
+                    <TextView
+                        android:id="@+id/aadharcardNAV"
+                        android:textColor="@color/blue_200"
+                        android:layout_marginTop="5dp"
+                        android:lines="2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="◦ Your nearest MBMC.(Click to navigate)"
+                        android:textFontWeight="1000"
+                        android:textSize="17dp" />
+
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Gray/Projects/DoclockerMP/doclocker1/QueenScanner/app/src/main/res/layout/activity_fullscreen_view.xml" value="0.14375" />
+        <entry key="..\:/Gray/Projects/DoclockerMP/doclocker1/QueenScanner/app/src/main/res/layout/activity_guides.xml" value="0.27447916666666666" />
+        <entry key="..\:/Gray/Projects/DoclockerMP/doclocker1/QueenScanner/app/src/main/res/layout/activity_handle.xml" value="0.14375" />
+        <entry key="..\:/Gray/Projects/DoclockerMP/doclocker1/QueenScanner/app/src/main/res/layout/activity_image_sign.xml" value="0.14375" />
+        <entry key="..\:/Gray/Projects/DoclockerMP/doclocker1/QueenScanner/app/src/main/res/layout/activity_knife.xml" value="0.14375" />
+        <entry key="..\:/Gray/Projects/DoclockerMP/doclocker1/QueenScanner/app/src/main/res/layout/activity_login.xml" value="0.14375" />
+        <entry key="..\:/Gray/Projects/DoclockerMP/doclocker1/QueenScanner/app/src/main/res/layout/activity_main.xml" value="0.14375" />
+        <entry key="..\:/Gray/Projects/DoclockerMP/doclocker1/QueenScanner/app/src/main/res/layout/activity_my_pdf.xml" value="0.27447916666666666" />
+        <entry key="..\:/Gray/Projects/DoclockerMP/doclocker1/QueenScanner/app/src/main/res/layout/activity_open_note_scanner.xml" value="0.14375" />
+        <entry key="..\:/Gray/Projects/DoclockerMP/doclocker1/QueenScanner/app/src/main/res/layout/activity_pan_guide.xml" value="0.14375" />
+        <entry key="..\:/Gray/Projects/DoclockerMP/doclocker1/QueenScanner/app/src/main/res/layout/activity_process_image.xml" value="0.14375" />
+        <entry key="..\:/Gray/Projects/DoclockerMP/doclocker1/QueenScanner/app/src/main/res/layout/activity_signup.xml" value="0.14375" />
+        <entry key="..\:/Gray/Projects/DoclockerMP/doclocker1/QueenScanner/app/src/main/res/layout/activity_simple_document_scanner.xml" value="0.14375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
